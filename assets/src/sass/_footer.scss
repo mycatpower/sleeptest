@@ -1,0 +1,205 @@
+@import 'variables';
+
+// ********general footer***********
+footer{
+    background: $c-blue;
+    position: relative;
+    .widget{
+        margin: 0;
+    }
+    .footer-logo{
+        position: absolute;
+        top: 20px;
+        left: 88px;
+        a{
+            display: inline-block;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .footer_wrap{
+        padding-top: 47px;
+        padding-bottom: 29px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .footer_item{
+        padding-left: 60px;
+    }
+    .widget-title{
+        font-family: 'FuturaDemiC';
+        font-size: 14px;
+        line-height: normal;
+        color: $c-white;
+        margin-bottom: 15px;
+    }
+    .widget_nav_menu{
+        .menu{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style-type: none;
+                display: block;
+                a{
+                    font-family: 'GothamProLight';
+                    font-size: 12px;
+                    line-height: 23px;
+                    letter-spacing: 0.05em;
+                    color: $c-white;
+                    &:hover{
+                        text-decoration: none;
+                        font-family: 'GothamPro';
+                    }
+                }
+            }
+        }
+    }
+    .footer_blog {
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style-type: none;
+                display: block;
+                a{
+                    font-family: 'GothamProLight';
+                    font-size: 12px;
+                    line-height: 23px;
+                    letter-spacing: 0.05em;
+                    color: $c-white;
+                    &:hover{
+                        text-decoration: none;
+                        font-family: 'GothamPro';
+                    }
+                }
+            }
+        }
+    }
+    .custom-html-widget{
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 22px;
+                a{
+                    color: #C8D7E5;
+                    font-size: 17px;
+                    &:hover{
+                        color: $c-white;
+                    }
+                }
+            }
+        }
+    }
+    .copyright{
+        text-align: center;
+        background: #042C55;
+        padding: 15px 0;
+        margin: 0;
+        p{
+            margin-bottom: 0;
+            font-size: 12px;
+            line-height: 15px;
+            color: $c-white;
+        }
+    }
+}
+
+// *****media styles general-footer********
+@media only screen and (max-width:1500px){
+    footer{
+        .footer-logo{
+            img{
+                width: 70%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1400px){
+    footer{
+        .footer-logo{
+            left: 40px;
+            img{
+                width: 60%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1300px){
+    footer{
+        .footer_wrap{
+            padding-top: 20px;
+        }
+        .footer-logo{
+            left: auto;
+            position: relative;
+            top: auto;
+            text-align: center;
+            margin-bottom: 30px;
+            flex: 0 0 100%;
+            img{
+                width: 70%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:992px){
+    footer{
+        .footer_item{
+            padding-left: 10px;
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    footer{
+        .footer_item{
+            padding-left: 50px;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media only screen and (max-width:576px){
+    footer{
+        .footer_item{
+            padding-left: 40px;
+        }
+    }
+}
+@media only screen and (max-width:420px){
+    footer{
+        .footer_wrap{
+            padding-top: 0px;
+        }
+        .footer_item{
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        .footer-logo{
+            left: auto;
+            position: relative;
+            top: auto;
+            text-align: center;
+            margin-bottom: 27px;
+            img{
+                width: 100%;
+            }
+        }
+        .widget-title{
+            margin-bottom: 10px;
+        }
+        footer .custom-html-widget ul li{
+            margin-right: 20px;
+        }
+    }
+}
+@media only screen and (max-width:320px){
+    footer .widget_nav_menu .menu li a, footer .footer_blog ul li a{
+        font-size: 10px;
+    }
+    footer .custom-html-widget ul li{
+        margin-right: 15px;
+    } 
+}// -----end-media styles general-footer------

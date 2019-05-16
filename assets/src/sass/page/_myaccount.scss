@@ -1,0 +1,453 @@
+.sleeptest_myaccount{
+    padding: 100px 0;
+    background: #F4F4F4;
+    @media (max-width: 425px){
+        padding: 60px 10px;         
+    }
+    .woocommerce-MyAccount-navigation{
+        float: none!important;
+        width: 100%!important;
+        ul{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            li{
+                list-style-type: none;
+                display: block;
+                margin-bottom: 15px;
+                @media (max-width: 992px){
+                    display: inline-block;
+                    padding-right: 10px;     
+                }
+                a{
+                    font-family: 'GothamPro';
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: 0.05em;
+                    color: #444444;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    @media (max-width: 992px){
+                        font-size: 14px;        
+                    }
+                    &:hover{
+                        color: #444444;
+                        text-decoration: none;
+                        color: #49E1A1;
+                    }
+                }
+            }
+            li.is-active a{
+                color: #49E1A1;
+            }
+        }
+    }
+    .sleeptest_MyAccount_content{
+        mark{
+            background: #49E1A1;;
+        }
+        p{
+            font-family: 'GothamProLight';
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            color: #444444;
+        }
+        a{
+            font-family: 'GothamPro';
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: #49E1A1;
+            font-weight: bold;
+            @media (max-width: 768px){
+                font-size: 14px;
+            }
+        }
+        form{
+            fieldset{
+                margin: 40px 0;
+            }
+            h3{
+                font-size: 24px;
+                line-height: 34px;
+                letter-spacing: 0.05em;
+                color: #353C44;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid #C4C4C4;
+            }
+            .woocommerce-address-fields__field-wrapper{
+                margin-bottom: 50px;
+            }
+            .button{
+                background: #49E1A1;
+                border-radius: 50px;
+                border: none;
+                font-family: "FuturaDemiC";
+                font-size: 18px;
+                line-height: normal;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #ffffff;
+                padding: 20px 0px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                width: 200px;
+                padding-right: 15px;
+                display: inline-block;
+                &:hover{
+                    background: #38B882;
+                    text-decoration: none;
+                    color: $c-white;
+                }
+                &:before, &:after{
+                    content: none;
+                }
+            }
+            .form-row{
+                label{
+                    font-size: 19px;
+                    @media (max-width: 768px){
+                        font-size: 16px;      
+                    }
+                }
+                span{
+                    input,select{
+                        display: block;
+                        width: 100%;
+                        padding: 9px 20px;
+                        font-family: 'GothamProLight',sans-serif;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        color: #444444;
+                        background-clip: padding-box;
+                        transition: all .5s ease-in-out;
+                        background: #ffffff;
+                        box-sizing: border-box;
+                        border-radius: 5px;
+                        border: 2px solid #ffffff;
+                    }
+                    .select2-selection__rendered{
+                        display: block;
+                        width: 100%;
+                        padding: 9px 20px;
+                        font-family: 'GothamProLight',sans-serif;
+                        font-size: 16px;
+                        line-height: 1.5;
+                        color: #444444;
+                        background-clip: padding-box;
+                        transition: all .5s ease-in-out;
+                        background: #ffffff;
+                        box-sizing: border-box;
+                        border-radius: 5px;
+                        border: 2px solid #ffffff;
+                    }
+                    .select2-selection--single{
+                        display: block;
+                        width: 100%;
+                        border: none;
+                        height: auto;
+                    }
+                }
+                input,select{
+                    display: block;
+                    width: 100%;
+                    padding: 9px 20px;
+                    font-family: 'GothamProLight',sans-serif;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: #444444;
+                    background-clip: padding-box;
+                    transition: all .5s ease-in-out;
+                    background: #ffffff;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    border: 2px solid #ffffff;
+                }
+            }
+        }
+        table{
+            border: none;
+            margin: 0;
+            margin-bottom: 30px;
+            th{
+                font-family: 'GothamProLight';
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.05em;
+                color: #444444;
+                text-align: left;
+                font-weight: normal;
+                border-top: 2px solid #F5F5F5;
+            }
+            tbody{
+                td{
+                    font-size: 14px;
+                    line-height: 28px;
+                    letter-spacing: 0.05em;
+                    color: #444444;
+                    font-weight: normal;
+                    padding: 20px 0;
+                    a.button {
+                        background: #49E1A1;
+                        border-radius: 50px;
+                        border: none;
+                        font-family: "FuturaDemiC";
+                        font-size: 18px;
+                        line-height: normal;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        color: #ffffff;
+                        padding: 8px 0px;
+                        position: relative;
+                        transition: all .3s ease-in-out;
+                        width: 100px;
+                        display: inline-block;
+                        &:hover{
+                            background: #38B882;
+                            text-decoration: none;
+                            color: $c-white;
+                        }
+                    }
+                }
+            }      
+        }
+        a.button {
+            background: #49E1A1;
+            border-radius: 50px;
+            border: none;
+            font-family: "FuturaDemiC";
+            font-size: 18px;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            padding: 8px 0px;
+            position: relative;
+            transition: all .3s ease-in-out;
+            width: 170px;
+            display: inline-block;
+            &:hover{
+                background: #38B882;
+                text-decoration: none;
+                color: $c-white;
+            }
+        }
+        .woocommerce-order-details__title{
+            padding: 15px 0;
+        }
+    }
+    .woocommerce-info{
+        border: none;
+        text-align: center;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        color: #444444;
+        padding: 30px 0;
+        margin: 0;
+        &:before{
+            content: none;
+        }
+    }
+    .woocommerce-Address{
+        header{
+            position: relative!important;
+        }
+    }
+    .woocommerce-customer-details{
+        h2{
+            padding: 15px 0;
+            @media (max-width: 425px){
+                padding: 30px 0; 
+            }
+        }
+        address{
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 20px;
+            border: 2px solid  #49E1A1;
+            min-height: 265px;
+            @media (max-width: 425px){
+                margin-bottom: 70px;
+            }
+        }
+    } 
+}
+.sleeptest_login{
+    padding: 100px 0;
+    background: #F4F4F4;
+    h2{
+        font-family: 'FuturaDemiC';
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        color: #353C44;
+        padding-bottom: 45px;
+        position: relative;
+    }
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register{
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+    margin: 0 auto;
+    input{
+        display: block;
+        width: 100%;
+        padding: 9px 20px;
+        font-family: 'GothamProLight',sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #444444;
+        background-clip: padding-box;
+        transition: all .5s ease-in-out;
+        background: #ffffff;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 2px solid #ffffff;
+    }
+    #rememberme{
+        width: 30px;
+        display: inline-block;
+    }
+    span{
+        font-family: 'GothamProLight';
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.05em;
+        color: #444444;
+    }
+    label{
+        font-size: 19px;
+        @media (max-width: 425px){
+            font-size: 16px; 
+        }
+    }
+    a{
+        font-family: 'GothamPro';
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: #49E1A1;
+        font-weight: bold;
+    }
+    .button {
+        background: #49E1A1;
+        border-radius: 50px;
+        border: none;
+        font-family: "FuturaDemiC";
+        font-size: 18px;
+        line-height: normal;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        padding: 20px 0px;
+        position: relative;
+        transition: all .3s ease-in-out;
+        width: 200px;
+        margin: 0 auto;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 50px;
+        &:hover{
+            background: #38B882;
+            text-decoration: none;
+            color: $c-white;
+        }
+    }
+}
+.sleeptest_lost_password{
+    padding: 100px 0;
+    background: #F4F4F4;
+    .lost_reset_password{
+        border: none;
+        margin: 0;
+        padding: 0;
+        max-width: 700px;
+        margin: 0 auto;
+        p{
+            font-family: 'GothamProLight';
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            color: #444444;
+        }
+        input{
+            display: block;
+            width: 100%;
+            padding: 9px 20px;
+            font-family: 'GothamProLight',sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #444444;
+            background-clip: padding-box;
+            transition: all .5s ease-in-out;
+            background: #ffffff;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: 2px solid #ffffff;
+        }
+        label{
+            font-size: 19px;
+            @media (max-width: 768px){
+                font-size: 16px;      
+            }
+        }
+        a{
+            font-family: 'GothamPro';
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: #49E1A1;
+            font-weight: bold;
+        }
+        .form-row{
+            float: none;
+            width: 50%;
+        }
+        .button {
+            background: #49E1A1;
+            border-radius: 50px;
+            border: none;
+            font-family: "FuturaDemiC";
+            font-size: 18px;
+            line-height: normal;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            padding: 20px 0px;
+            position: relative;
+            transition: all .3s ease-in-out;
+            width: 200px;
+            margin: 0 auto;
+            display: inline-block;
+            margin-top: 20px;
+            &:hover{
+                background: #38B882;
+                text-decoration: none;
+                color: $c-white;
+            }
+        }
+    
+    }
+}
+.sleeptest_lost_info{
+    padding: 100px 0;
+}
+@media (max-width: 768px){
+    .woocommerce-table--order-details td{
+        text-align: right;
+    }
+    .woocommerce .woocommerce-customer-details, .woocommerce .woocommerce-order-details, .woocommerce .woocommerce-order-downloads{
+        margin-bottom: 0;
+    }
+    form em{
+        font-size: 12px;
+    }
+    form legend{
+        font-size: 24px;
+    }
+}

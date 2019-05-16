@@ -1,0 +1,114 @@
+// ABOUT US
+.about_content{
+    padding: 80px 0 0px 0;
+    @media (max-width: 425px){
+        padding: 60px 20px; 
+        padding-bottom: 30px;        
+    }
+    h2{
+        font-family: "FuturaDemiC";
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #353C44;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        position: relative;
+        @media (max-width: 425px){
+            font-size: 24px;       
+            line-height: 34px;  
+            margin-bottom: 20px;         
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #EFEFEF;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0 auto;
+        }
+    }
+    .about_text_bottom{
+        padding: 40px 0;
+        @media (max-width: 768px){
+            padding: 20px 0;     
+        }
+        @media (max-width: 768px){
+            padding-top: 0;     
+         }
+    }
+    .about_text_top, .about_text_bottom{
+        p{
+            margin-bottom: 40px;
+            font-family: 'GothamProLight';
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: #444444;
+            @media (max-width: 425px){
+                font-size: 14px;
+                line-height: 21px; 
+                margin-bottom: 20px; 
+            }
+        }
+    }
+    .about_specifications{
+        padding: 40px 0;
+        @media (max-width: 768px){
+           padding: 20px 0;     
+        }
+    }
+    .about_sp_icon{
+        width: 50px;
+        height: 50px;
+        float: left;
+    }
+    .about_sp_content{
+        float: right;
+        width: 90%;
+        padding-left: 40px;
+        padding-right: 30px;
+        @media (max-width: 1200px){
+            width: 87%;        
+        }
+        @media (max-width: 992px){
+            width: 80%; 
+            padding-left: 20px;      
+        }
+        @media (max-width: 768px){
+            width: 86%; 
+            padding-left: 35px; 
+            padding-right: 0;     
+        }
+        @media (max-width: 425px){
+            width: 80%;
+            padding-left: 26px;     
+        }
+        h3{
+            font-family: 'GothamPro';
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.05em;
+            color: #444444;
+            font-weight: bold;
+            padding-bottom: 20px;
+            @media (max-width: 425px){
+                padding-bottom: 15px;    
+            }
+        }
+        P{
+            font-family: 'GothamProLight';
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: 0.05em;
+            color: #444444;
+            margin-bottom: 30px;
+        }
+    }
+}
+

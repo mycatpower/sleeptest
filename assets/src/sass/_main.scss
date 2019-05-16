@@ -1,0 +1,44 @@
+body{
+    font-size:14px;
+    min-width:320px;
+    position:relative;
+    font-family: "GothamPro", sans-serif;
+    line-height:21px;
+    overflow-x:hidden;
+    padding: 0;
+    margin: 0!important;
+}
+section,footer{
+
+    position: relative;
+}
+h1,h2,h3{
+    padding: 0;
+    margin: 0;
+    
+}
+button:focus{
+    outline: none; 
+}
+input[type="text"],.btn_submit, input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+    border: none;
+    outline: none;
+}
+.text-right{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
